@@ -1,0 +1,538 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>
+Homepage
+</title>
+<style>
+header{
+width:100%;
+height:50px;
+box-sizing:border-box;
+float:left;
+padding:6px;
+}
+
+body{
+margin:0;
+padding:0;
+}
+
+#brand{
+margin:0;
+padding:0;
+float:left;
+font-family:sans-serif;
+margin-left:24px;
+}
+
+#tag_line{
+margin:0;
+padding:0;
+float:right;
+font-family:century gothic;
+margin-top:10px;
+margin-right:24px;
+}
+
+nav{
+width:100%;
+height:106px;
+background-color:blue;
+box-sizing:border-box;
+float:left;
+padding:30px;
+}
+
+#search{
+width:400px;
+height:40px;
+font-size:16px;
+box-sizing:border-box;
+padding:10px;
+border:none;
+float:left;
+}
+
+#search_button{
+width:100px;
+height:40px;
+font-size:16px;
+box-sizing:border-box;
+border:none;
+float:left;
+margin-left:3px;
+}
+
+#menu_table{
+width:600px;
+height:40px;
+float:right;
+box-sizing:border-box;
+margin-bottom:5px;
+}
+
+#menu_item{
+background-color:white;
+width:20%;
+text-align:center;
+}
+
+a{
+text-decoration:none;
+font-family:sans-serif;
+color:black;
+}
+
+section{
+width:100%;
+height:1650px;
+border-width:1px;
+border-style:solid;
+border-color:blue;
+box-sizing:border-box;
+padding:30px;
+float:left;
+}
+
+#venue{
+float:left;
+}
+
+#phone{
+float:right;
+}
+
+#popular-sweet-box{
+width:720px;
+height:550px;
+background-color:black;
+box-sizing:border-box;
+margin-top:50px;
+padding:25px;
+float:left;
+}
+
+#popular-sweets-title{
+color:white;
+text-align:center;
+font-size:30px;
+font-family:sans-serif;
+margin:0;
+padding:0;
+}
+
+#popular-sweets-image{
+width:300px;
+height:200px;
+margin:15px;
+border-width:5px;
+border-style:solid;
+border-color:white;
+box-sizing:border-box;
+}
+
+#rate-list-box{
+width:400px;
+height:550px;
+float:right;
+box-sizing:border-box;
+margin-top:30px;
+}
+
+#rate-header{
+height:50px;
+background-color:black;
+color:white;
+text-align:center;
+font-family:century gothic;
+font-size:25px;
+}
+
+#rate-content{
+background-color:blue;
+}
+
+#s-name{
+color:white;
+font-family:century gothic;
+font-size:20px;
+padding:10px;
+border-bottom-width:2px;
+border-bottom-style:solid;
+border-bottom-color:white;
+}
+
+#rate{
+list-style:none;
+}
+fieldset{
+width:750px;
+height:550px;
+border:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+margin-top:50px;
+padding:10px;
+
+}
+
+legend{
+font-size:25px;
+font-family:century gothic;
+font-weight:bold;
+}
+
+#order-online{
+font-size:17px;
+font-family:sans-serif;
+
+}
+
+#order-input{
+width:100%;
+height:35px;
+box-sizing:border-box;
+border:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:5px;
+}
+
+textarea{
+width:100%;
+height:100px;
+box-sizing:border-box;
+border:1px;
+border-style:solid;
+border-color:#ccc;
+}
+
+#submit-btn{
+float:right;
+padding:10px;
+font-size:13px;
+border:1px;
+border-style:solid;
+border-color:#ccc;
+background-color:white;
+}
+
+#about-us{
+width:400px;
+height:550px;
+float:right;
+border:1px;
+border-style:solid;
+border-color:#ccc;
+margin-top:66px;
+box-sizing:border-box;
+padding:20px;
+}
+
+#abt-heading{
+font-family:century gothic;
+font-size:30px;
+text-align:center;
+}
+
+#abt-text{
+text-align:justify;
+font-family:sans-serif;
+line-height:26px;
+}
+
+#m-sweets{
+float:left;
+width:100%;
+box-sizing:border-box;
+}
+
+#more-sweets{
+text-align:center;
+font-family:century gothic;
+font-size:30px;
+}
+
+#sweets{
+width:220px;
+height:250px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+margin-right:84px;
+}
+
+#sweets-end{
+width:220px;
+height:250px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+float:left;
+}
+
+#sweet-pic{
+width:180px;
+height:150px;
+margin:17px;
+}
+
+#buy-btn{
+padding:10px;
+border-width:1px;
+border-style:solid;
+border-color:#ccc;
+background-color:white;
+width:100px;
+}
+
+footer{
+width:100%;
+height:250px;
+box-sizing:border-box;
+background-color:black;
+float:left;
+}
+
+#contact-us{
+width:400px;
+height:250px;
+box-sizing:border-box;
+float:left;
+padding:10px;
+padding-left:30px;
+}
+
+#social-link{
+width:300px;
+height:250px;
+box-sizing:border-box;
+float:right;
+padding:10px;
+}
+
+#contact-title{
+color:white;
+font-family:sans-serif;
+}
+
+#contact-detail{
+color:white;
+font-family:sans-serif;
+font-size:20px;
+font-style:normal;
+margin-bottom:10px;
+}
+
+#social-logo{
+width:50px;
+}
+
+#social-logo1{
+width:40px;
+}
+
+#developer{
+float:left;
+color:white;
+font-family:century gothic;
+font-size:20px;
+margin-top:200px;
+margin-left:190px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 id="brand">Sweetshop.com</h1>
+<p id="tag_line">The world's largest sweets & bakeries shop</p>
+</header>
+
+<nav>
+<form>
+<input type="search" name="search" placeholder="Search sweets Here" id="search"/>
+<input type="submit" value="search" id="search_button"/>
+
+</form>
+
+<table id="menu_table">
+<tr>
+<td id="menu_item"><a href="index.html">Home</a></td>
+<td id="menu_item"><a href="sweets.html">Sweets</a></td>
+<td id="menu_item"><a href="bakeries.html">Bakeries</a></td>
+<td id="menu_item"><a href="#abt-heading">About us</a></td>
+<td id="menu_item"><a href="#contact-us">Contact us</a></td>
+</tr>
+</table>
+
+</nav>
+
+
+<section>
+<address id="venue">
+venue : Patel Nagar, New delhi-110008
+</address>
+
+<address id="phone">
+Order Online : +91 9835479525, +91 9835477851
+</address>
+
+<div id="popular-sweet-box">
+<h1 id="popular-sweets-title">Our Popular Sweets</h1>
+
+<img src="images/a.jpg" alt="a" id="popular-sweets-image" />
+<img src="images/b.jpg" alt="b" id="popular-sweets-image" />
+<img src="images/c.jpg" alt="c" id="popular-sweets-image" />
+<img src="images/d.jpg" alt="d" id="popular-sweets-image" />
+
+</div>
+
+<table id="rate-list-box" border="1">
+<tr>
+<td id="rate-header" >Sweets name</td>
+<td id="rate-header">Price</td>
+</tr>
+
+<tr>
+<td id="rate-content">
+<ol>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+<li id="s-name">Rasgulla</li>
+</ol>
+</td>
+<td id="rate-content">
+<ol id="rate">
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+<li id="s-name">200/kg</li>
+</ol>
+</td>
+</tr>
+
+</table>
+
+<fieldset id="form-box">
+
+<legend>Order Online</legend>
+
+<form id="order-online">
+Buyer name<br>
+<input text="name" name="name" id="order-input"><br><br>
+
+Mobile No.<br>
+<input text="number" name="mobile" id="order-input"><br><br>
+
+Choose Sweets<br>
+<select name="choose_sweets" id="order-input">
+<option value="rasgulla">Rasgulla</option>
+<option value="rasmalai">Rasmalai</option>
+<option value="barfee">Barfee</option>
+<option value="kalakand">Kalakand</option>
+</select>
+<br><br>
+
+Quantity<br>
+<input type="text" name="quantity" id="order-input">
+<br><br>
+
+Address<br>
+<textarea name="address"></textarea>
+<br><br>
+
+<input type="submit" value="Order now" name="submit" id="submit-btn">
+</form>
+
+</fieldset>
+
+<div id="about-us">
+<h1 align="center" id="abt-heading">About us</h1>
+<hr>
+<p id="abt-text">Your About Us page is one of the most important pages on your site. After all, it is a sheer representation of your brand identity. Here are 16 of our favorite About Us pages, whose design and content strategy are worth writing home about.What seems to be just another page in your sitemap, probably accessible through your header and/or footer, is actually one of your most compelling pieces of content. Or at least, it should be.
+
+Yes, we’re talking about your website’s About Us page.
+
+In some ways, it’s actually more appropriate to refer to this type of page as “Our Brand Story,” or if you want another alternative, “Our Identity.” We like the first one better, but they’re both pretty accurate.</p>
+
+</div>
+
+<div id="m-sweets">
+<h1 id="more-sweets">More Sweets</h1>
+</div>
+
+<div id="sweets">
+<img src="images/sweet/a.png" id="sweet-pic">
+<center>
+<a href="#form-box"><button id="buy-btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/sweet/b.png" id="sweet-pic">
+<center>
+<a href="#form-box"><button id="buy-btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/sweet/c.png" id="sweet-pic">
+<center>
+<a href="#form-box"><button id="buy-btn">Buy Now</button></a>
+</center>
+</div>
+
+<div id="sweets">
+<img src="images/sweet/d.png" id="sweet-pic">
+<center>
+<a href="#form-box"><button id="buy-btn">Buy Now</button> </a>
+</center>
+</div>
+
+<div id="sweets-end">
+<img src="images/sweet/e.jpg" id="sweet-pic">
+<center>
+<a href="#form-box"><button id="buy-btn">Buy Now</button></a>
+</center>
+</div>
+
+</section>
+
+<footer>
+
+<div id="contact-us">Contact us
+<h1 id="contact-title">Contact us</h1>
+<address id="contact-detail">Website : Sweetshop.com</address>
+<address id="contact-detail">Phone No. : +91 9835479525</address>
+<address id="contact-detail">Email ID : sweetshop@gmail.com</address>
+<address id="contact-detail">Address : South Mandiri, Patna-800001 </address>
+</div>
+
+<div id="developer">Developed by : Adarsh Mehta</div>
+
+<div id="social-link"> Social link
+<h1 id="contact-title">Follow us</h1>
+<a href="https://www.instagram.com/"><img src="images/in.png" id="social-logo1"></a>
+<a href="https://www.facebook.com/profile.php?id=100026877473446&mibextid=ngobeXctTp5pD3Zm"><img src="images/fb.png" id="social-logo"></a>
+<a href="https://www.linkedin.com/in/adarsh-mehta-492112252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="images/li.png" id="social-logo"></a>
+<a href="https://x.com/AdarshM23630380?s=08"><img src="images/tw.png" id="social-logo"></a>
+</div>
+
+
+</footer>
+</body>
+</html>
